@@ -16,30 +16,30 @@ var getName = function() {
       return false;
     }
     if (year < 0) {
-      alert.style.background ="red"
-      alert.style.color= "black"
-      alert.innerHTML =  "Hello" + name + " please enter a valid year " + "to proceed!"
+      output.style.background ="red"
+      output.style.color= "black"
+      alert( "Hello" + name + " please enter a valid year " + "to proceed!")
   }
     
   else if ((month < 1) || (month > 31)) {
-      output.style.background ="red"
-      output.style.color= "black"
-      output.innerHTML = "Hello " + name + " please enter a valid month! " + "to proceed!"
+      alert.style.background ="red"
+      alert.style.color= "black"
+      alert.innerHTML = "Hello " + name + " please enter a valid month! " + "to proceed!"
   }
     
    else if (day < 0 || day > 31) {
-      output.style.background ="red"
-      output.style.color= "black"
-      output.innerHTML = "Hello " + name + " please enter a valid day! " + "to proceed!"
+      alert.style.background ="red"
+      alert.style.color= "black"
+      alert.innerHTML = "Hello " + name + " please enter a valid day! " + "to proceed!"
   }
   if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
-      output.style.background ="lime"
-        output.innerHTML = "Bonjour" + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
+        alert.style.background ="lime"
+        alert.innerHTML = "Bonjour" + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
     }
      else if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
-      output.style.background ="lime"
-      output.style.background ="red"
-      output.innerHTML = "Bonjour" + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
+      alert.style.background ="lime"
+      alert.style.background ="red"
+      alert.innerHTML = "Bonjour" + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
   }
   
   };
