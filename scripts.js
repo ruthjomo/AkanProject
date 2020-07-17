@@ -1,16 +1,28 @@
-var a=new Date("input");
-alert(a.getDay());
-var dayNames
-var male
-var female
-dayNames=["Sunday: Akosua","Monday: Adwoa","Tuesday: Abenaa","Wednesday: Akua","Thursday:Yaa",
+// var a=new Date("input");
+// alert(a.getDay());
+
+var dayNames=["Sunday: Akosua","Monday: Adwoa","Tuesday: Abenaa","Wednesday: Akua","Thursday:Yaa",
                "Friday: Afua","Saturday: Ama","Sunday: Kwasi","Monday: Kwadwo","Tuesday: Kwabena",
                "Wednesday: Kwaku","Thursday:Yaw","Friday: Kofi","Saturday: Kwame"]
-male=["Sunday: Kwasi","Monday: Kwadwo","Tuesday: Kwabena",
+var male=["Sunday: Kwasi","Monday: Kwadwo","Tuesday: Kwabena",
 "Wednesday: Kwaku","Thursday:Yaw","Friday: Kofi","Saturday: Kwame"]
-female=["Sunday: Akosua","Monday: Adwoa","Tuesday: Abenaa","Wednesday: Akua","Thursday:Yaa",
+var female=["Sunday: Akosua","Monday: Adwoa","Tuesday: Abenaa","Wednesday: Akua","Thursday:Yaa",
 "Friday: Afua","Saturday: Ama"]
-if(female=true)
+var a=gender("input");
+var b=day("input");
+if("a"==="female"("b"==="0-6")){
+    return(female)  
+}else{
+    return(male)
+}
+document.getElementById=
+
+
+
+    
+
+
+
 
 
               
