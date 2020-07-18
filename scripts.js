@@ -13,8 +13,8 @@ function getAkanName () {
 		}
 	  }
 	}
-  let myGenderValue = getGender();
-  console.log(myGenderValue);
+  // let myGenderValue = getGender();
+  console.log(getGender);
   
 	// validation functions
 	function monthValidator () {
