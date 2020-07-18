@@ -1,0 +1,25 @@
+Web Application Project
+Author:RUTH MURONJI JOMO
+ ## Description
+This is a web application that calculates the day of the week that a user was born and  assigns him/her an Akan name 
+according to the Ghanian culture.
+
+## Project setup instructions
+*Create a github repository
+*Git clone to my local folder 
+*create gh-pages 
+*deploy project to gh-pages 
+*commit changes made to gh-pages branch
+
+project link
+
+
+Known bugs
+I experienced no bugs.
+
+Technologies used
+Html,css and javascript languages were used to accomplish this project.I added a background slideshow using css and html.
+
+License
+Copyright (c) {2020}
+
