@@ -20,15 +20,15 @@ body {
 }
 .description button{
     font-size:30px;
-    background-color:lightseagreen;
-    color:black;
-    border-radius:70%;
+    background-color:black;
+    color:lightseagreen;
+    border-radius:80%;
     font-style:italic;
   }
 .slideshow{
     width:100%;
     height:100vh;
-    position:fixed;
+    position:relative;
     overflow:hidden;
 }
 .slideshow-details{
