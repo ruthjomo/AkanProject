@@ -9,20 +9,39 @@
 <body>
     <div><h1>Fill in the details ,click on get name and wait for the <em>MAGIC!</em></h1></div>
     <div class="form">
-        <form >
-            <br><br>Your Name<br>
-            <input placeholder="e.g Rupy" id="name">
-            <br><br>Your Gender<br>
-            <select>
-            <option value="male" id="male">Male</option>
-            <option value="female" id="female">Female</option>
-            </select>
-            <br><br>Your Date of Birth<br>
-            <input placeholder="YY/MM/DD" id="birthday">
-            <br><br><script>src="./scripts.js"</script><button>Get Name</button></a><br><br>
+<form class="myform" onsubmit="return getAkanName()">
+    <br><p>Your Name</p>
+    <input type="text" placeholder="e.g Rupy">
+            <label for="year-of-birth"><p>Your Birthday</p>
+                <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value=""  required min="1980" max="2020">
+            </label>
+            <label for="month-of-birth">
+                <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required min="1" max="12">
+            </label>
+              <label for="date-of-birth">
+            <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required
+                    min="1" max="31">
+            </label>
+              <br>
+            <label for="gender">
+                <div id ="gender "><p>GENDER </p>
+                     Male
+                        <input id="male-input" type="radio" name="gender" value="male" required>
+                    Female
+                         <input id="female-input" type="radio" name="gender" value="female" required>
+                </div>
+            </label>
+              <br><br>
+                        <input id="get-name" type="submit" name="" value="Lets go">
+              <br><br>
         </form>
+        <form onsubmit="return clear()">
+                        <input class="clear" type="submit" value="Clear">
+        </form>
+            <h4 id = display-name><strong></strong></h4>
+                <p id="result"></p>
         </div>
             
-        <script>src="./scripts.js"</script>
+        <script src="./scripts.js"></script>
 </body>
 </html>
