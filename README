@@ -1,7 +1,7 @@
 Name:Landing Page Portfolio
 Author:RUTH MURONJI JOMO
-## Description
-This is a web application that calculates the day of the week that a user was born and  assigns him/her an Akan name once
+ ## Description
+This is a web application that calculates the day of the week that a user was born and  assigns him/her an Akan name 
 according to the Ghanian culture.
 
 ## Project setup instructions
@@ -12,13 +12,13 @@ according to the Ghanian culture.
 *commit changes made to gh-pages branch
 
 project link
-https://ruthjomo.github.io/Landingpageproject/
+
 
 Known bugs
 I experienced no bugs.
 
 Technologies used
-Html,css  languages were used.I added a background slideshow using css and html.
+Html,css and javascript languages were used to accomplish this project.I added a background slideshow using css and html.
 
 License
 Copyright (c) {2020}
